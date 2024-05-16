@@ -1,0 +1,646 @@
+[
+  {
+    "ID": 1,
+    "Date": "2024-04-09 23:08:21",
+    "Deal-ID": "61d33d89-7f41-47d8-9885-8e34649642c1",
+    "Deal name": "Sally & Harry & Richard FHB Nov 2023",
+    "New-stage": "Lead"
+  },
+  {
+    "ID": 2,
+    "Date": "2024-04-09 06:10:21",
+    "Deal-ID": "61d33d89-7f41-47d8-9885-8e34649642c1",
+    "Deal name": "Sally & Harry & Richard FHB Nov 2023",
+    "New-stage": "Lead"
+  },
+  {
+    "ID": 3,
+    "Date": "2024-04-09 06:13:04",
+    "Deal-ID": "61d33d89-7f41-47d8-9885-8e34649642c1",
+    "Deal name": "Sally & Harry & Richard FHB Nov 2023",
+    "New-stage": "Lead"
+  },
+  {
+    "ID": 4,
+    "Date": "2024-04-09 06:16:15",
+    "Deal-ID": "61d33d89-7f41-47d8-9885-8e34649642c1",
+    "Deal name": "Sally & Harry & Richard FHB Nov 2023",
+    "New-stage": "Lead"
+  },
+  {
+    "ID": 5,
+    "Date": "2024-04-09 21:15:16",
+    "Deal-ID": "a25c95a1-8b5d-4494-a94c-31d61558f8bd",
+    "Deal name": "Lamhot - equity out Jan 2024",
+    "New-stage": "Qualify"
+  },
+  {
+    "ID": 6,
+    "Date": "2024-04-10 18:17:14",
+    "Deal-ID": "0d5f4990-25d8-47ef-a529-c1a68a754c76",
+    "Deal name": "Philip & Lyn Zingwe - INV Purchase WA Feb 2024",
+    "New-stage": "Doc & Info Collection"
+  },
+  {
+    "ID": 7,
+    "Date": "2024-04-10 05:02:07",
+    "Deal-ID": "a25c95a1-8b5d-4494-a94c-31d61558f8bd",
+    "Deal name": "Lamhot - equity out Jan 2024",
+    "New-stage": "Solution / Lender selection"
+  },
+  {
+    "ID": 8,
+    "Date": "2024-04-10 05:15:01",
+    "Deal-ID": "497c5592-56c3-442c-9893-f32512875e08",
+    "Deal name": "Bianca Zepina - inv purchase Nov 2023",
+    "New-stage": "Qualify"
+  },
+  {
+    "ID": 9,
+    "Date": "2024-04-10 05:15:04",
+    "Deal-ID": "497c5592-56c3-442c-9893-f32512875e08",
+    "Deal name": "Bianca Zepina - inv purchase Nov 2023",
+    "New-stage": "Solution / Lender selection"
+  },
+  {
+    "ID": 10,
+    "Date": "2024-04-10 16:53:50",
+    "Deal-ID": "0d5f4990-25d8-47ef-a529-c1a68a754c76",
+    "Deal name": "Philip & Lyn Zingwe - INV Purchase WA Feb 2024",
+    "New-stage": "Qualify"
+  },
+  {
+    "ID": 11,
+    "Date": "2024-04-10 22:10:21",
+    "Deal-ID": "492c681e-8c3f-41cb-91ac-81e93699cba5",
+    "Deal name": "Karan Thakur - refi Feb 2024",
+    "New-stage": "Settlement Booked"
+  },
+  {
+    "ID": 12,
+    "Date": "2024-04-11 01:33:37",
+    "Deal-ID": "497c5592-56c3-442c-9893-f32512875e08",
+    "Deal name": "Bianca Zepina - inv purchase Nov 2023",
+    "New-stage": "Final notes & Fact Find"
+  },
+  {
+    "ID": 13,
+    "Date": "2024-04-11 19:55:53",
+    "Deal-ID": "b5706349-f64f-4243-a44f-d9e73706a14a",
+    "Deal name": "Lorrainne Rivera - Purchase off the plan Feb 2024",
+    "New-stage": "Unconditionally Approved"
+  },
+  {
+    "ID": 14,
+    "Date": "2024-04-11 21:32:35",
+    "Deal-ID": "ab405c31-90f2-47d9-960b-e67d312624ff",
+    "Deal name": "Yessy Panggabean - FHB Apr 2024",
+    "New-stage": "Client Introduction"
+  },
+  {
+    "ID": 15,
+    "Date": "2024-04-11 23:17:30",
+    "Deal-ID": "5538b9eb-13a7-48e4-827c-92174f4b9943",
+    "Deal name": "Judith St Mart - Purchase Apr 2024",
+    "New-stage": "Client Introduction"
+  },
+  {
+    "ID": 16,
+    "Date": "2024-04-16 03:14:16",
+    "Deal-ID": "75647bbd-5d95-4699-a1c3-de133671512b",
+    "Deal name": "Gerardus Hendrikus Reurts - tyest 2",
+    "New-stage": "Client Introduction"
+  },
+  {
+    "ID": 17,
+    "Date": "2024-04-16 04:26:00",
+    "Deal-ID": "75647bbd-5d95-4699-a1c3-de133671512b",
+    "Deal name": "Gerardus Hendrikus Reurts - tyest 2",
+    "New-stage": "Quick Check"
+  },
+  {
+    "ID": 18,
+    "Date": "2024-04-16 17:04:45",
+    "Deal-ID": "ab405c31-90f2-47d9-960b-e67d312624ff",
+    "Deal name": "Yessy Panggabean - FHB Apr 2024",
+    "New-stage": "Quick Check"
+  },
+  {
+    "ID": 19,
+    "Date": "2024-04-16 17:45:36",
+    "Deal-ID": "4fc60d74-18ef-48e2-bf46-3ce54c1ab4cb",
+    "Deal name": "Simone Callaghan - NDIS INV",
+    "New-stage": "Solution / Lender selection"
+  },
+  {
+    "ID": 20,
+    "Date": "2024-04-16 17:58:00",
+    "Deal-ID": "497c5592-56c3-442c-9893-f32512875e08",
+    "Deal name": "Bianca Zepina - inv purchase Nov 2023",
+    "New-stage": "Lender Doc's / Signatures"
+  },
+  {
+    "ID": 21,
+    "Date": "2024-04-16 18:08:00",
+    "Deal-ID": "ab405c31-90f2-47d9-960b-e67d312624ff",
+    "Deal name": "Yessy Panggabean - FHB Apr 2024",
+    "New-stage": "Doc & Info Collection"
+  },
+  {
+    "ID": 22,
+    "Date": "2024-04-16 18:08:03",
+    "Deal-ID": "4fc60d74-18ef-48e2-bf46-3ce54c1ab4cb",
+    "Deal name": "Simone Callaghan - NDIS INV",
+    "New-stage": "Final notes & Fact Find"
+  },
+  {
+    "ID": 23,
+    "Date": "2024-04-16 20:19:18",
+    "Deal-ID": "69aea621-0987-4abb-95ba-15bf96d054bf",
+    "Deal name": "Patrick & Rosita Rose - INV - Equity Out 2024",
+    "New-stage": "Doc & Info Collection"
+  },
+  {
+    "ID": 24,
+    "Date": "2024-04-16 21:43:02",
+    "Deal-ID": "24c29e79-f638-40de-92a8-17c36b776c09",
+    "Deal name": "James & Brendon, buying first home",
+    "New-stage": "Valuation"
+  },
+  {
+    "ID": 25,
+    "Date": "2024-04-18 01:42:19",
+    "Deal-ID": "69aea621-0987-4abb-95ba-15bf96d054bf",
+    "Deal name": "Patrick & Rosita Rose - INV - Equity Out 2024",
+    "New-stage": "Solution / Lender selection"
+  },
+  {
+    "ID": 26,
+    "Date": "2024-04-18 04:46:22",
+    "Deal-ID": "69aea621-0987-4abb-95ba-15bf96d054bf",
+    "Deal name": "Patrick & Rosita Rose - INV - Equity Out 2024",
+    "New-stage": "Final notes & Fact Find"
+  },
+  {
+    "ID": 27,
+    "Date": "2024-04-18 19:21:45",
+    "Deal-ID": "128572a7-ac8c-422e-a331-3688ce60f67b",
+    "Deal name": "Matt Rose & Steph Olford - FHB Mar 2023 Bankwest",
+    "New-stage": "Settled & paid 2024"
+  },
+  {
+    "ID": 28,
+    "Date": "2024-04-18 19:26:51",
+    "Deal-ID": "89681f93-8ae2-40d1-a1ef-a12772521d9d",
+    "Deal name": "Kylie and Clint Campbell - SMSF purchase Aug 2023",
+    "New-stage": "Settled & paid 2024"
+  },
+  {
+    "ID": 29,
+    "Date": "2024-04-18 21:11:25",
+    "Deal-ID": "497c5592-56c3-442c-9893-f32512875e08",
+    "Deal name": "Bianca Zepina - inv purchase Nov 2023",
+    "New-stage": "Submitted to lender"
+  },
+  {
+    "ID": 30,
+    "Date": "2024-04-19 07:32:46",
+    "Deal-ID": "0d5f4990-25d8-47ef-a529-c1a68a754c76",
+    "Deal name": "Philip & Lyn Zingwe - INV Purchase WA Feb 2024",
+    "New-stage": "Final notes & Fact Find"
+  },
+  {
+    "ID": 31,
+    "Date": "2024-04-19 07:34:02",
+    "Deal-ID": "ab405c31-90f2-47d9-960b-e67d312624ff",
+    "Deal name": "Yessy Panggabean - FHB Apr 2024",
+    "New-stage": "Solution / Lender selection"
+  },
+  {
+    "ID": 32,
+    "Date": "2024-04-20 01:07:02",
+    "Deal-ID": "75647bbd-5d95-4699-a1c3-de133671512b",
+    "Deal name": "Gerardus Hendrikus Reurts - tyest 2",
+    "New-stage": "Doc & Info Collection"
+  },
+  {
+    "ID": 33,
+    "Date": "2024-04-21 04:19:58",
+    "Deal-ID": "75647bbd-5d95-4699-a1c3-de133671512b",
+    "Deal name": "Gerardus Hendrikus Reurts - tyest 2",
+    "New-stage": "Qualify"
+  },
+  {
+    "ID": 34,
+    "Date": "2024-04-21 04:52:58",
+    "Deal-ID": "5da1c81d-ccd6-4eb9-8692-2df18676d78d",
+    "Deal name": "Lynette Reurts - test 2",
+    "New-stage": "Client Introduction"
+  },
+  {
+    "ID": 35,
+    "Date": "2024-04-21 04:56:24",
+    "Deal-ID": "5da1c81d-ccd6-4eb9-8692-2df18676d78d",
+    "Deal name": "Lynette Reurts - test 2",
+    "New-stage": "Quick Check"
+  },
+  {
+    "ID": 36,
+    "Date": "2024-04-22 05:59:29",
+    "Deal-ID": "8baef6ff-2c14-4f9a-aadf-e0ed48f1722d",
+    "Deal name": "Timothy Castle",
+    "New-stage": "Client Introduction"
+  },
+  {
+    "ID": 37,
+    "Date": "2024-04-22 06:11:55",
+    "Deal-ID": "0d5f4990-25d8-47ef-a529-c1a68a754c76",
+    "Deal name": "Philip & Lyn Zingwe - INV Purchase WA Feb 2024",
+    "New-stage": "Submitted to lender"
+  },
+  {
+    "ID": 38,
+    "Date": "2024-04-22 08:10:39",
+    "Deal-ID": "69aea621-0987-4abb-95ba-15bf96d054bf",
+    "Deal name": "Patrick & Rosita Rose - INV - Equity Out 2024",
+    "New-stage": "Submitted to lender"
+  },
+  {
+    "ID": 39,
+    "Date": "2024-04-22 16:14:37",
+    "Deal-ID": "24c29e79-f638-40de-92a8-17c36b776c09",
+    "Deal name": "James & Brendon, buying first home",
+    "New-stage": "Unconditionally Approved"
+  },
+  {
+    "ID": 40,
+    "Date": "2024-04-23 17:27:49",
+    "Deal-ID": "24618e4d-9717-4f00-bfe0-84ad14bc23b2",
+    "Deal name": "Skone: investment purchase Mar 2024",
+    "New-stage": "Client Introduction"
+  },
+  {
+    "ID": 41,
+    "Date": "2024-04-25 17:04:09",
+    "Deal-ID": "24c29e79-f638-40de-92a8-17c36b776c09",
+    "Deal name": "James & Brendon, buying first home",
+    "New-stage": "Loan Docs issued"
+  },
+  {
+    "ID": 42,
+    "Date": "2024-04-28 20:21:34",
+    "Deal-ID": "e98fac4f-fffa-427d-ba0a-e79e0efd9d61",
+    "Deal name": "Romina Soliz - FHB Apr 2024",
+    "New-stage": "Client Introduction"
+  },
+  {
+    "ID": 43,
+    "Date": "2024-04-29 09:21:39",
+    "Deal-ID": "4f9717bc-c85e-4046-ac92-74a5fdb0c26a",
+    "Deal name": "Elena & Horea - Inv purchase Jan 2024",
+    "New-stage": "Valuation"
+  },
+  {
+    "ID": 44,
+    "Date": "2024-04-29 16:31:00",
+    "Deal-ID": "0d5f4990-25d8-47ef-a529-c1a68a754c76",
+    "Deal name": "Philip & Lyn Zingwe - INV Purchase WA Feb 2024",
+    "New-stage": "Conditionally Approved"
+  },
+  {
+    "ID": 45,
+    "Date": "2024-04-29 19:06:50",
+    "Deal-ID": "24c29e79-f638-40de-92a8-17c36b776c09",
+    "Deal name": "James & Brendon, buying first home",
+    "New-stage": "Settlement Booked"
+  },
+  {
+    "ID": 46,
+    "Date": "2024-04-30 17:21:24",
+    "Deal-ID": "059102fe-05b9-4b30-9e41-e4baebf1dabe",
+    "Deal name": "Michelle & Mick Blunt and Mary & Terry Richards - INV Purchase Jan 2024",
+    "New-stage": "Conditionally Approved"
+  },
+  {
+    "ID": 47,
+    "Date": "2024-04-30 18:43:31",
+    "Deal-ID": "e34f98a5-7e75-4380-91bf-6a2bb2c701cb",
+    "Deal name": "Sudhakar Nemmatha - MadMex purchase Apr 2024",
+    "New-stage": "Client Introduction"
+  },
+  {
+    "ID": 48,
+    "Date": "2024-05-01 06:25:47",
+    "Deal-ID": "ddbd4ca6-8f85-4f7e-b2e4-2ddf7d2023d4",
+    "Deal name": "Young Cho - Refinance OO Apr 2024",
+    "New-stage": "Client Introduction"
+  },
+  {
+    "ID": 49,
+    "Date": "2024-05-01 20:55:02",
+    "Deal-ID": "a4b0f7c4-77cd-48b1-9b6b-aa63cb90866b",
+    "Deal name": "Sally & Richard FHB (NAB)",
+    "New-stage": "B4c) Preapproval"
+  },
+  {
+    "ID": 50,
+    "Date": "2024-05-02 01:13:06",
+    "Deal-ID": "ddbd4ca6-8f85-4f7e-b2e4-2ddf7d2023d4",
+    "Deal name": "Young Cho - Refinance OO Apr 2024",
+    "New-stage": "Doc & Info Collection"
+  },
+  {
+    "ID": 51,
+    "Date": "2024-05-02 05:23:56",
+    "Deal-ID": "ddbd4ca6-8f85-4f7e-b2e4-2ddf7d2023d4",
+    "Deal name": "Young Cho - Refinance OO Apr 2024",
+    "New-stage": "Quick Check"
+  },
+  {
+    "ID": 52,
+    "Date": "2024-05-02 08:45:00",
+    "Deal-ID": "fd13d32c-88f7-43b6-a106-b5f5f7dc9b13",
+    "Deal name": "Olaso - FHB Nov 2022 a",
+    "New-stage": "Lender Doc's / Signatures"
+  },
+  {
+    "ID": 53,
+    "Date": "2024-05-02 19:52:12",
+    "Deal-ID": "fa8f6764-1735-47d2-8730-1eef7a70ad84",
+    "Deal name": "Robert Domanko - $50k equity release",
+    "New-stage": "Conditionally Approved"
+  },
+  {
+    "ID": 54,
+    "Date": "2024-05-02 19:52:21",
+    "Deal-ID": "fa8f6764-1735-47d2-8730-1eef7a70ad84",
+    "Deal name": "Robert Domanko - $50k equity release",
+    "New-stage": "Loan Docs issued"
+  },
+  {
+    "ID": 55,
+    "Date": "2024-05-03 23:10:53",
+    "Deal-ID": "ab405c31-90f2-47d9-960b-e67d312624ff",
+    "Deal name": "Yessy Panggabean - FHB Apr 2024",
+    "New-stage": "Final notes & Fact Find"
+  },
+  {
+    "ID": 56,
+    "Date": "2024-05-05 22:47:13",
+    "Deal-ID": "4f9717bc-c85e-4046-ac92-74a5fdb0c26a",
+    "Deal name": "Elena & Horea - Inv purchase Jan 2024",
+    "New-stage": "Unconditionally Approved"
+  },
+  {
+    "ID": 57,
+    "Date": "2024-05-06 16:40:29",
+    "Deal-ID": "4f9717bc-c85e-4046-ac92-74a5fdb0c26a",
+    "Deal name": "Elena & Horea - Inv purchase Jan 2024",
+    "New-stage": "Loan Docs issued"
+  },
+  {
+    "ID": 58,
+    "Date": "2024-05-07 05:07:46",
+    "Deal-ID": "e08c6e0c-6aeb-4925-99e8-5c87bb659583",
+    "Deal name": "Katie & Lachlan Blunt - FHB",
+    "New-stage": "Settled"
+  },
+  {
+    "ID": 59,
+    "Date": "2024-05-07 05:09:39",
+    "Deal-ID": "852317d3-1f12-4897-844c-5b8bd252fd4e",
+    "Deal name": "Angie & Heath Jackson",
+    "New-stage": "Settled & paid 2024"
+  },
+  {
+    "ID": 60,
+    "Date": "2024-05-07 05:20:38",
+    "Deal-ID": "cec1f4c2-91f9-4205-84b1-e8147de2700f",
+    "Deal name": "Clementir - Equity Out",
+    "New-stage": "Settled & paid 2024"
+  },
+  {
+    "ID": 61,
+    "Date": "2024-05-07 05:20:46",
+    "Deal-ID": "6d56cf0e-e40e-42b7-94c6-ac11899439cb",
+    "Deal name": "Clementir - NDIS purchase Sep 2023",
+    "New-stage": "Settled & paid 2024"
+  },
+  {
+    "ID": 62,
+    "Date": "2024-05-07 05:21:16",
+    "Deal-ID": "fa8f6764-1735-47d2-8730-1eef7a70ad84",
+    "Deal name": "Robert Domanko - $50k equity release",
+    "New-stage": "Settled"
+  },
+  {
+    "ID": 63,
+    "Date": "2024-05-07 17:24:47",
+    "Deal-ID": "69d12fd5-506f-48ff-b3f5-cee3d076e0f2",
+    "Deal name": "Suzanne Lacey - Inv purchase Mar 2024",
+    "New-stage": "Qualify"
+  },
+  {
+    "ID": 64,
+    "Date": "2024-05-07 17:38:46",
+    "Deal-ID": "69d12fd5-506f-48ff-b3f5-cee3d076e0f2",
+    "Deal name": "Suzanne Lacey - Inv purchase Mar 2024",
+    "New-stage": "Solution / Lender selection"
+  },
+  {
+    "ID": 65,
+    "Date": "2024-05-07 17:41:20",
+    "Deal-ID": "fa8f6764-1735-47d2-8730-1eef7a70ad84",
+    "Deal name": "Robert Domanko - $50k equity release",
+    "New-stage": "Settled/Post to Commission"
+  },
+  {
+    "ID": 66,
+    "Date": "2024-05-07 20:27:33",
+    "Deal-ID": "e393024a-3ca5-45d1-a70d-0376b4239336",
+    "Deal name": "Philip & Lyn Zingwe - INV Purchase WA Feb 2024 copy",
+    "New-stage": "Quick Check"
+  },
+  {
+    "ID": 67,
+    "Date": "2024-05-08 08:20:58",
+    "Deal-ID": "fd13d32c-88f7-43b6-a106-b5f5f7dc9b13",
+    "Deal name": "Olaso - FHB Nov 2022 a",
+    "New-stage": "Submitted to lender"
+  },
+  {
+    "ID": 68,
+    "Date": "2024-05-08 19:29:32",
+    "Deal-ID": "90b1a7ad-2c5f-45dd-93a5-3b0988b70884",
+    "Deal name": "Umback - Refi ME to CBA",
+    "New-stage": "Client Introduction"
+  },
+  {
+    "ID": 69,
+    "Date": "2024-05-08 19:30:38",
+    "Deal-ID": "ddbd4ca6-8f85-4f7e-b2e4-2ddf7d2023d4",
+    "Deal name": "Young Cho - Refinance OO Apr 2024",
+    "New-stage": "Solution / Lender selection"
+  },
+  {
+    "ID": 70,
+    "Date": "2024-05-09 17:19:57",
+    "Deal-ID": "fd13d32c-88f7-43b6-a106-b5f5f7dc9b13",
+    "Deal name": "Olaso - FHB Nov 2022 a",
+    "New-stage": "Pre assessment completed"
+  },
+  {
+    "ID": 71,
+    "Date": "2024-05-09 17:20:09",
+    "Deal-ID": "fd13d32c-88f7-43b6-a106-b5f5f7dc9b13",
+    "Deal name": "Olaso - FHB Nov 2022 a",
+    "New-stage": "Conditionally Approved"
+  },
+  {
+    "ID": 72,
+    "Date": "2024-05-09 17:25:42",
+    "Deal-ID": "ddbd4ca6-8f85-4f7e-b2e4-2ddf7d2023d4",
+    "Deal name": "Young Cho - Refinance OO Apr 2024",
+    "New-stage": "Final notes & Fact Find"
+  },
+  {
+    "ID": 73,
+    "Date": "2024-05-09 17:26:11",
+    "Deal-ID": "ddbd4ca6-8f85-4f7e-b2e4-2ddf7d2023d4",
+    "Deal name": "Young Cho - Refinance OO Apr 2024",
+    "New-stage": "Lender Doc's / Signatures"
+  },
+  {
+    "ID": 74,
+    "Date": "2024-05-09 17:26:40",
+    "Deal-ID": "e393024a-3ca5-45d1-a70d-0376b4239336",
+    "Deal name": "Philip & Lyn Zingwe - Equity out for Investment Purchase 2024",
+    "New-stage": "Solution / Lender selection"
+  },
+  {
+    "ID": 75,
+    "Date": "2024-05-09 18:10:26",
+    "Deal-ID": "e393024a-3ca5-45d1-a70d-0376b4239336",
+    "Deal name": "Philip & Lyn Zingwe - Equity out for Investment Purchase 2024",
+    "New-stage": "Qualify"
+  },
+  {
+    "ID": 76,
+    "Date": "2024-05-10 06:00:21",
+    "Deal-ID": "522d02af-ef3b-44ec-8ec7-a7af6e9e1cd6",
+    "Deal name": "REUS SMSF refinance Feb 2024",
+    "New-stage": "Pre assessment completed"
+  },
+  {
+    "ID": 77,
+    "Date": "2024-05-10 09:30:33",
+    "Deal-ID": "e98fac4f-fffa-427d-ba0a-e79e0efd9d61",
+    "Deal name": "Romina Soliz - FHB Apr 2024",
+    "New-stage": "Doc & Info Collection"
+  },
+  {
+    "ID": 78,
+    "Date": "2024-05-10 23:43:22",
+    "Deal-ID": "e98fac4f-fffa-427d-ba0a-e79e0efd9d61",
+    "Deal name": "Romina Soliz - FHB Apr 2024",
+    "New-stage": "Client Introduction"
+  },
+  {
+    "ID": 79,
+    "Date": "2024-05-10 23:43:50",
+    "Deal-ID": "90b1a7ad-2c5f-45dd-93a5-3b0988b70884",
+    "Deal name": "Umback - Refi ME to CBA",
+    "New-stage": "Doc & Info Collection"
+  },
+  {
+    "ID": 80,
+    "Date": "2024-05-10 23:47:53",
+    "Deal-ID": "a1e82e1d-b318-4fd3-8175-bf9b848fc6e6",
+    "Deal name": "Dhananjoy Bhowmik - SMSF pre approval",
+    "New-stage": "Solution / Lender selection"
+  },
+  {
+    "ID": 81,
+    "Date": "2024-05-11 01:50:50",
+    "Deal-ID": "69d12fd5-506f-48ff-b3f5-cee3d076e0f2",
+    "Deal name": "Suzanne Lacey - Inv purchase Mar 2024",
+    "New-stage": "Submitted to lender"
+  },
+  {
+    "ID": 82,
+    "Date": "2024-05-12 17:14:40",
+    "Deal-ID": "1406fe55-669d-467f-b54d-b6e8d6ff2415",
+    "Deal name": "Rebekah INV pre approval Mar 2024",
+    "New-stage": "Qualify"
+  },
+  {
+    "ID": 83,
+    "Date": "2024-05-12 17:49:31",
+    "Deal-ID": "ddbd4ca6-8f85-4f7e-b2e4-2ddf7d2023d4",
+    "Deal name": "Young Cho - Refinance OO Apr 2024",
+    "New-stage": "Submitted to lender"
+  },
+  {
+    "ID": 84,
+    "Date": "2024-05-12 18:46:22",
+    "Deal-ID": "fa8f6764-1735-47d2-8730-1eef7a70ad84",
+    "Deal name": "Robert Domanko - $50k equity release",
+    "New-stage": "Settled & paid 2024"
+  },
+  {
+    "ID": 85,
+    "Date": "2024-05-12 21:13:57",
+    "Deal-ID": "69d12fd5-506f-48ff-b3f5-cee3d076e0f2",
+    "Deal name": "Suzanne Lacey - Inv purchase Mar 2024",
+    "New-stage": "Conditionally Approved"
+  },
+  {
+    "ID": 86,
+    "Date": "2024-05-12 21:20:59",
+    "Deal-ID": "522d02af-ef3b-44ec-8ec7-a7af6e9e1cd6",
+    "Deal name": "REUS SMSF refinance Feb 2024",
+    "New-stage": "Conditionally Approved"
+  },
+  {
+    "ID": 87,
+    "Date": "2024-05-12 21:40:10",
+    "Deal-ID": "1406fe55-669d-467f-b54d-b6e8d6ff2415",
+    "Deal name": "Rebekah INV pre approval Mar 2024",
+    "New-stage": "Solution / Lender selection"
+  },
+  {
+    "ID": 88,
+    "Date": "2024-05-12 22:03:59",
+    "Deal-ID": "e98fac4f-fffa-427d-ba0a-e79e0efd9d61",
+    "Deal name": "Romina Soliz - FHB Apr 2024",
+    "New-stage": "Quick Check"
+  },
+  {
+    "ID": 89,
+    "Date": "2024-05-12 23:53:34",
+    "Deal-ID": "ddbd4ca6-8f85-4f7e-b2e4-2ddf7d2023d4",
+    "Deal name": "Young Cho - Refinance OO Apr 2024",
+    "New-stage": "Submitted to lender"
+  },
+  {
+    "ID": 90,
+    "Date": "2024-05-13 00:05:29",
+    "Deal-ID": "ddbd4ca6-8f85-4f7e-b2e4-2ddf7d2023d4",
+    "Deal name": "Young Cho - Refinance OO Apr 2024",
+    "New-stage": "Lender Doc's / Signatures"
+  },
+  {
+    "ID": 91,
+    "Date": "2024-05-13 00:10:51",
+    "Deal-ID": "e393024a-3ca5-45d1-a70d-0376b4239336",
+    "Deal name": "Philip & Lyn Zingwe - Equity out for Investment Purchase 2024",
+    "New-stage": "Solution / Lender selection"
+  },
+  {
+    "ID": 92,
+    "Date": "2024-05-13 02:04:30",
+    "Deal-ID": "ddbd4ca6-8f85-4f7e-b2e4-2ddf7d2023d4",
+    "Deal name": "Young Cho - Refinance OO Apr 2024",
+    "New-stage": "Submitted to lender"
+  }
+]
