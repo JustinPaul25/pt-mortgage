@@ -1,6 +1,26 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
+import Pagination from '@/Components/Pagination.vue';
+import LeadModalContent from '@/Components/LeadModalContent.vue'
+import Modal from '@/Components/Modal.vue';
+import { ref } from 'vue';
+
+const showDealModal = ref(false);
+const singleDeal = ref();
+
+const showModal = (deal) => {
+    showDealModal.value = true;
+    singleDeal.value = deal;
+};
+
+const closeModal = () => {
+    showDealModal.value = false;
+};
+
+defineProps({
+    deals: Object
+})
 </script>
 
 <template>
@@ -11,36 +31,40 @@ import { Head } from '@inertiajs/vue3';
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">Leads</h2>
         </template>
 
+        <Modal :show="showDealModal" @close="closeModal" :maxWidth="'deal-custom'">
+            <LeadModalContent :deal="singleDeal"/>
+        </Modal>
+
         <div class="py-12">
-            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                    <table class="table-auto">
-                        <thead>
-                            <tr>
-                            <th>Song</th>
-                            <th>Artist</th>
-                            <th>Year</th>
+            <div class="mx-auto sm:px-6 lg:px-8">
+                <section class="text-gray-600 body-font">
+                    <div class="container px-5 py-4 mx-auto">
+                      <div class="w-full mx-auto overflow-auto">
+                        <table class="table-auto w-full text-left whitespace-no-wrap">
+                          <thead>
+                            <tr class="bg-gray-800">
+                              <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tl rounded-bl">#</th>
+                              <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Deal ID</th>
+                              <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Deal Owner</th>
+                              <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tr rounded-br">Date Submitted</th>
                             </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                            <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
-                            <td>Malcolm Lockyer</td>
-                            <td>1961</td>
+                          </thead>
+                          <tbody v-if="deals.data.length">
+                            <tr v-for="deal in deals.data" :key="deal.id" class="cursor-pointer border-b-2 hover:bg-gray-400 hover:text-white" @click="showModal(deal)">
+                              <td class="px-4 py-3">{{ deal.id }}</td>
+                              <td class="px-4 py-3">{{ deal.deal_id }}</td>
+                              <td class="px-4 py-3">{{ deal.deal_owner }}</td>
+                              <td class="px-4 py-3">{{ deal.date_submitted }}</td>
                             </tr>
-                            <tr>
-                            <td>Witchy Woman</td>
-                            <td>The Eagles</td>
-                            <td>1972</td>
-                            </tr>
-                            <tr>
-                            <td>Shining Star</td>
-                            <td>Earth, Wind, and Fire</td>
-                            <td>1975</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="flex mt-4 w-full mx-auto">
+                        <Pagination :pagination="deals.meta"/>
+                      </div>
+                    </div>
+
+                </section>
             </div>
         </div>
     </AuthenticatedLayout>

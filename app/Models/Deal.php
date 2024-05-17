@@ -29,6 +29,20 @@ class Deal extends Model
         'date_paid',
         'date_lost',
         'current_stage',
-        'employment_type'
+        'employment_type',
+    ];
+
+    protected $dates = [
+        'date_new_lead',
+        'date_submitted',
+        'date_conditional',
+        'date_formal',
+        'date_settled',
+        'date_paid',
+        'date_lost',
+    ];
+
+    protected $casts = [
+        'date_new_lead' => 'datetime:Y F d g:i:s A',
     ];
 }
