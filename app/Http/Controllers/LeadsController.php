@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 class LeadsController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
         return Inertia::render('Leads/Index', [
             'deals' => DealResource::collection(

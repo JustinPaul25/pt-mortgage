@@ -1,13 +1,18 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
+import { Inertia } from '@inertiajs/inertia';
 import Pagination from '@/Components/Pagination.vue';
 import LeadModalContent from '@/Components/LeadModalContent.vue'
 import Modal from '@/Components/Modal.vue';
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
+import InputLabel from '@/Components/InputLabel.vue';
+import TextInput from '@/Components/TextInput.vue';
+import _ from 'lodash';
 
 const showDealModal = ref(false);
 const singleDeal = ref();
+const search = ref();
 
 const showModal = (deal) => {
     showDealModal.value = true;
@@ -21,6 +26,18 @@ const closeModal = () => {
 defineProps({
     deals: Object
 })
+
+// const debouncedSearch = _.debounce(() => {
+//     Inertia.get('/leads', {
+//         search: search.value,
+//     });
+// }, 500);
+
+watch(search, () => {
+    Inertia.get('/leads', {
+        search: search.value,
+    }, { preserveState: true, replace: true });
+});
 </script>
 
 <template>
@@ -39,6 +56,19 @@ defineProps({
             <div class="mx-auto sm:px-6 lg:px-8">
                 <section class="text-gray-600 body-font">
                     <div class="container px-5 py-4 mx-auto">
+                        <!-- <div>
+                            <InputLabel for="name" value="Search" />
+
+                            <TextInput
+                                id="name"
+                                type="text"
+                                class="mt-1 block w-full"
+                                v-model="search"
+                                required
+                                autofocus
+                                autocomplete="name"
+                            />
+                        </div> -->
                       <div class="w-full mx-auto overflow-auto">
                         <table class="table-auto w-full text-left whitespace-no-wrap">
                           <thead>
