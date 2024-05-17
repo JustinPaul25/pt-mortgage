@@ -24,8 +24,8 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
-    Route::group(['prefix' => 'lead'], function () {
-        Route::post('/', [LeadsController::class, 'index'])->name('leads');
+    Route::group(['prefix' => 'leads'], function () {
+        Route::get('/', [LeadsController::class, 'index'])->name('leads');
     });
 });
 
