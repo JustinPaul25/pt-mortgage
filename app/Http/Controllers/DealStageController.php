@@ -2,27 +2,27 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Resources\DealResource;
-use App\Models\Deal;
+use App\Http\Resources\DealStageResource;
 use Inertia\Inertia;
+use App\Models\DealStage;
 use Illuminate\Http\Request;
 
-class LeadsController extends Controller
+class DealStageController extends Controller
 {
     public function index()
     {
-        return Inertia::render('Leads/Index');
+        return Inertia::render('DealStage/Index');
     }
 
     public function list(Request $request) {
         $search = $request->input('search');
-        $deals = Deal::query()
+        $deals = DealStage::query()
             ->when($search, function ($query, $search) {
                 $query->where('deal_id', 'like', "%{$search}%")
-                      ->orWhere('deal_owner', 'like', "%{$search}%");
+                      ->orWhere('deal_name', 'like', "%{$search}%");
             })
             ->paginate(10);
 
-        return DealResource::collection($deals);
+        return DealStageResource::collection($deals);
     }
 }

@@ -41,8 +41,4 @@ class Deal extends Model
         'date_paid',
         'date_lost',
     ];
-
-    protected $casts = [
-        'date_new_lead' => 'datetime:Y F d g:i:s A',
-    ];
 }

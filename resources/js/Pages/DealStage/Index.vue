@@ -4,41 +4,29 @@ import { Head } from '@inertiajs/vue3';
 import { watchDebounced } from '@vueuse/core';
 import Pagination from '@/Components/Pagination.vue';
 import LeadModalContent from '@/Components/LeadModalContent.vue'
-import Modal from '@/Components/Modal.vue';
 import { ref, onMounted } from 'vue';
-import { useLeadsStore } from '@/Store/useLeadsStore';
+import { useDealStagesStore } from '@/Store/useDealStagesStore';
 import InputLabel from '@/Components/InputLabel.vue';
 import TextInput from '@/Components/TextInput.vue';
 import _ from 'lodash';
 
-const showDealModal = ref(false);
-const singleDeal = ref();
-const leadsStore = useLeadsStore();
+const dealStagesStore = useDealStagesStore();
 const search = ref('');
 const page = ref(1);
 
-const showModal = (deal) => {
-    showDealModal.value = true;
-    singleDeal.value = deal;
-};
-
-const closeModal = () => {
-    showDealModal.value = false;
-};
-
 const changePage = (val) => {
     page.value = val
-    leadsStore.fetchLeads({ page: val, search: search.value })
+    dealStagesStore.fetchDealStage({ page: val, search: search.value })
 }
 
 watchDebounced(search, () => {
     page.value = 1
-    leadsStore.fetchLeads({ page: 1, search: search.value })
+    dealStagesStore.fetchDealStage({ page: 1, search: search.value })
 }, { debounce: 500 })
 
 
 onMounted(() => {
-    leadsStore.fetchLeads({ page: page.value, search: search.value })
+    dealStagesStore.fetchDealStage({ page: page.value, search: search.value })
 });
 </script>
 
@@ -50,10 +38,6 @@ onMounted(() => {
         <template #header>
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">Leads</h2>
         </template>
-
-        <Modal :show="showDealModal" @close="closeModal" :maxWidth="'deal-custom'">
-            <LeadModalContent :deal="singleDeal" />
-        </Modal>
 
         <div class="py-5">
             <div class="mx-auto sm:px-6 lg:px-8">
@@ -83,26 +67,29 @@ onMounted(() => {
                                             Deal ID</th>
                                         <th
                                             class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">
-                                            Deal Owner</th>
+                                            Deal Name</th>
+                                        <th
+                                            class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">
+                                            New Stage</th>
                                         <th
                                             class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tr rounded-br">
-                                            Date Submitted</th>
+                                            Date Updated</th>
                                     </tr>
                                 </thead>
-                                <tbody v-if="leadsStore.getLeads">
-                                    <tr v-for="deal in leadsStore.getLeads.data" :key="deal.id"
-                                        class="cursor-pointer border-b-2 hover:bg-gray-400 hover:text-white"
-                                        @click="showModal(deal)">
+                                <tbody v-if="dealStagesStore.getDealStages">
+                                    <tr v-for="deal in dealStagesStore.getDealStages.data" :key="deal.id"
+                                        class="cursor-pointer border-b-2 hover:bg-gray-400 hover:text-white">
                                         <td class="px-4 py-3">{{ deal.id }}</td>
                                         <td class="px-4 py-3">{{ deal.deal_id }}</td>
-                                        <td class="px-4 py-3">{{ deal.deal_owner }}</td>
-                                        <td class="px-4 py-3">{{ deal.date_submitted }}</td>
+                                        <td class="px-4 py-3">{{ deal.deal_name }}</td>
+                                        <td class="px-4 py-3">{{ deal.new_stage }}</td>
+                                        <td class="px-4 py-3">{{ deal.date_updated }}</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div v-if="leadsStore.getLeads" class="flex mt-4 w-full mx-auto">
-                            <Pagination :pagination="leadsStore.getLeads.meta" @change-page="changePage" />
+                        <div v-if="dealStagesStore.getDealStages" class="flex mt-4 w-full mx-auto">
+                            <Pagination :pagination="dealStagesStore.getDealStages.meta" @change-page="changePage" />
                         </div>
                     </div>
 

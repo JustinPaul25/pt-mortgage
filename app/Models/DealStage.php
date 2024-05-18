@@ -10,7 +10,7 @@ class DealStage extends Model
     use HasFactory;
 
     protected $fillable = [
-        "id",
+        'id',
         'deal_id',
         'deal_name',
         'new_stage',

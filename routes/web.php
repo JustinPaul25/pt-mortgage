@@ -1,10 +1,11 @@
 <?php
 
+use Inertia\Inertia;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Foundation\Application;
 use App\Http\Controllers\LeadsController;
 use App\Http\Controllers\ProfileController;
-use Illuminate\Foundation\Application;
-use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
+use App\Http\Controllers\DealStageController;
 
 Route::get('/', function () {
     return Inertia::render('Welcome', [
@@ -26,6 +27,12 @@ Route::middleware('auth')->group(function () {
 
     Route::group(['prefix' => 'leads'], function () {
         Route::get('/', [LeadsController::class, 'index'])->name('leads');
+        Route::get('/list', [LeadsController::class, 'list'])->name('leads.list');
+    });
+
+    Route::group(['prefix' => 'deal-stage'], function () {
+        Route::get('/', [DealStageController::class, 'index'])->name('deal_stage');
+        Route::get('/list', [DealStageController::class, 'list'])->name('deal_stage.list');
     });
 });
 
